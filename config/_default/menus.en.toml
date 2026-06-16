@@ -18,8 +18,5 @@
   pageRef = "teaching"
   weight = 40
 
-[[main]]
-  name = "Workshop Guide"
-  pageRef = "guide"
-  weight = 50
+
 
