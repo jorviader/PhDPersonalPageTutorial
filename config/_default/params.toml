@@ -1,11 +1,11 @@
-colorScheme = "ocean"
+colorScheme = "one-light"
 defaultAppearance = "light"
-autoSwitchAppearance = true
+autoSwitchAppearance = "true"
 
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["research", "publications"]
+mainSections = ["about", "publications"]
 
 [header]
   layout = "fixed"

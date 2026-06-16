@@ -1,10 +1,6 @@
 ---
-title: "Dr. Reginald Huffington-Smythe III"
-description: "Professor of Postmodern Semiotics. Amateur Competitive Sudoku Solver. Friendly dog owner."
+title: "Jordi Viader Guerrero"
+description: "Practice-based researcher working across philosophy of technology, media theory, science and technology studies and design research."
 ---
 
-Hi! I'm a student of Postmodern Semiotics at the University of Upper Boroughwick, where I've been asking "but what does it *mean*?" about increasingly mundane objects since 2009.
-
-My research focuses on the hidden power structures embedded in everyday language — parking tickets, IKEA manuals, corporate mission statements, and the passive-aggressive subtext of "per my last email." I'm also, inexplicably, a competitive crossword solver.
-
-Outside of work I play the clarinet badly, walk my dog Derrida reluctantly, and have very strong opinions about the Oxford comma that I will share unprompted.
+Jordi Viader Guerrero (he/him) is a practice-based researcher working across philosophy of technology, media theory, science and technology studies and design research. 
