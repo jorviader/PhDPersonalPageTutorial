@@ -9,7 +9,9 @@
   Good options for academic pages: Lora, Source Serif 4, Libre Baskerville, Merriweather
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Syne+Mono&display=swap') 
 
 body {
   font-family: 'Syne Mono', Georgia, serif;
@@ -23,6 +25,7 @@ body {
 */
 
 article, .prose {
+  font-family: 'Noto Serif', Georgia, serif;
   font-size: 1rem;
   line-height: 1.8;
 }
@@ -34,7 +37,12 @@ article, .prose {
   These are set relative to the body font size (rem).
 */
 
-h1 { font-size: 1.5rem; }
-h2 { font-size: 1.1rem; }
-h3 { font-size: 1.05rem; }
+h1 { 
+  font-family: 'Syne Mono', Georgia, serif;
+  font-size: 1.5rem; }
+h2 { 
+  font-family: 'Syne Mono', Georgia, serif;
+  font-size: 1.1rem; }
+h3 {font-family: 'Syne Mono', Georgia, serif;
+   font-size: 1.05rem; }
 
