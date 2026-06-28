@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Syne+Mono&display=swap');
+
+body {
+  font-family: 'Noto Serif', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+article.book-article {
+  font-family: 'Noto Serif', Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne Mono', Georgia, serif;
+}
+
+.book-menu a,
+.book-menu a span,
+.book-header nav a,
+.book-header nav a span {
+  font-family: 'Syne Mono', Georgia, serif;
+}

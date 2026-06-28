@@ -1,5 +1,9 @@
-[goldmark.renderer]
+[markup.goldmark.renderer]
   unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 4
 
 [highlight]
   noClasses = false

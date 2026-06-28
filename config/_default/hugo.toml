@@ -1,22 +1,60 @@
-theme = "blowfish"
+theme = "hugo-book"
 baseURL = "https://phdpersonalpagetutorial.netlify.app/"
 defaultContentLanguage = "en"
 
+title = "Jordi Viader Guerrero"
+description = "Practice-based researcher working across philosophy of technology, media theory, science and technology studies and design research."
+
 enableRobotsTXT = true
-summaryLength = 30
 enableEmoji = true
 buildDrafts = false
 buildFuture = false
+disablePathToLower = true
 
-[pagination]
-  pagerSize = 10
+[languages]
+  [languages.en]
+    label = 'English'
+    weight = 1
 
-[imaging]
-  anchor = "Center"
+[params]
+  BookTheme = 'light'
+  BookToC = true
+  BookSearch = true
+  BookDateFormat = '2 January 2006'
+  BookSection = '/'
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
+[[menu.home]]
+  name = "About"
+  url = "/"
+  weight = 10
+
+[[menu.home]]
+  name = "Research"
+  url = "/research/"
+  weight = 20
+
+[[menu.home]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 30
+
+[[menu.home]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 4
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
